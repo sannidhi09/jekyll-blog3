@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/apache/airavata-site/asf-site/source/_data/team.yml')
+fetch('https://raw.githubusercontent.com/sannidhi09/jekyll-dynamic-data-load/master/teams.yml')
     .then(response => response.text())
     .then(data => {
         var obj = jsyaml.load( data );
